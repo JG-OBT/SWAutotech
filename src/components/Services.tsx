@@ -42,7 +42,7 @@ const specialistServices = [
   { name: 'DPF Cleaning', icon: Droplets },
   { name: 'Performance Tuning', icon: Zap },
   { name: 'Air Conditioning', icon: Wind },
-  { name: 'Fuel Injection', icon: Settings },
+  { name: 'Clutch Repairs', icon: Settings },
   { name: 'Brakes & Steering', icon: Disc },
   { name: 'Tyres & Fitting', icon: Wrench },
 ];
