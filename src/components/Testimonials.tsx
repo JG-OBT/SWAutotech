@@ -4,7 +4,7 @@ import { Star, Quote, ExternalLink } from 'lucide-react';
 const testimonials = [
   {
     name: 'Phil Hares',
-    content: 'Just got my golf back after a full service, I can't rate the service from Shane, his wife,  and the team  high enough, if there was a six star rating, they would get one from me.',
+    content: "Just got my golf back after a full service, I can't rate the service from Shane, his wife, and the team high enough, if there was a six star rating, they would get one from me.",
     rating: 5,
     date: '1 month ago'
   },
@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: 'Mark Smith',
-    content: 'Had my drop links and new springs fitted. Feels like a new van now, brilliant work and always very reliable. I just won’t go anywhere else . Shayne is spot on and knows his stuff.',
+    content: 'Had my drop links and new springs fitted. Feels like a new van now, brilliant work and always very reliable. I just won’t go anywhere else. Shayne is spot on and knows his stuff.',
     rating: 5,
     date: '1 year ago'
   },
