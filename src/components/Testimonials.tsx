@@ -3,25 +3,22 @@ import { Star, Quote, ExternalLink } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'David Thompson',
-    role: 'Local Resident',
-    content: 'Been using SW Autotech for years. Always honest, fair pricing, and they never do work that isn\'t needed. Best garage in Yeovil by far.',
+    name: 'Phil Hares',
+    content: 'Just got my golf back after a full service, I can't rate the service from Shane, his wife,  and the team  high enough, if there was a six star rating, they would get one from me.',
     rating: 5,
     date: '1 month ago'
   },
   {
-    name: 'Sarah Jenkins',
-    role: 'Business Owner',
-    content: 'They look after our fleet of vans. Reliable, quick turnaround, and the diagnostics expertise is second to none. Highly recommended.',
+    name: 'rhea1',
+    content: 'Took my car to sw autotech due to an engine warning light and ambiguous diagnostic report from my mechanic. Sw autotech quickly got to the root of the problem and performed a successful off car dpf clean, all sorted, no fuss, super friendly too. Much appreciated.',
     rating: 5,
     date: '2 months ago'
   },
   {
-    name: 'Michael Ross',
-    role: 'Car Enthusiast',
-    content: 'Had my performance car in for tuning and DPF cleaning. The difference is night and day. These guys really know their stuff.',
+    name: 'Mark Smith',
+    content: 'Had my drop links and new springs fitted. Feels like a new van now, brilliant work and always very reliable. I just won’t go anywhere else . Shayne is spot on and knows his stuff.',
     rating: 5,
-    date: '3 weeks ago'
+    date: '1 year ago'
   }
 ];
 
@@ -41,7 +38,7 @@ export default function Testimonials() {
           
           <div className="flex items-center space-x-4 bg-slate-50 p-6 rounded-2xl border border-slate-100">
             <div className="text-right">
-              <p className="text-3xl font-bold text-slate-900">4.9</p>
+              <p className="text-3xl font-bold text-slate-900">4.8</p>
               <p className="text-xs text-slate-500 font-bold uppercase tracking-wider">Average Rating</p>
             </div>
             <div className="flex flex-col">
@@ -50,7 +47,7 @@ export default function Testimonials() {
                   <Star key={i} size={18} className="text-orange-500 fill-orange-500" />
                 ))}
               </div>
-              <p className="text-[10px] font-bold text-slate-400 mt-1 uppercase tracking-widest">Based on 200+ reviews</p>
+              <p className="text-[10px] font-bold text-slate-400 mt-1 uppercase tracking-widest">Based on 80+ reviews</p>
             </div>
           </div>
         </div>
