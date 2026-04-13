@@ -19,7 +19,7 @@ const testimonials = [
     content: 'Had my drop links and new springs fitted. Feels like a new van now, brilliant work and always very reliable. I just won’t go anywhere else . Shayne is spot on and knows his stuff.',
     rating: 5,
     date: '1 year ago'
-  }
+  },
 ];
 
 export default function Testimonials() {
